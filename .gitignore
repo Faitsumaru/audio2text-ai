@@ -1,3 +1,6 @@
 /logs
 .venv
-/preshow
+input*
+*.mp3
+*.wav
+*.txt
