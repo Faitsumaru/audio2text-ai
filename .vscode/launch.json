@@ -1,0 +1,14 @@
+// .vscode/launch.json
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python: Транскрибатор",
+      "type": "debugpy",
+      "request": "launch",
+      "program": "${workspaceFolder}/transcribe.py",
+      "args": ["input.mp3", "small"],
+      "console": "integratedTerminal"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Запустить транскриптор",
+      "type": "shell",
+      "command": "python",
+      "args": [
+        "${workspaceFolder}/transcribe.py",
+        "input.mp3",
+        "small",
+        "ru"
+      ],
+      "group": { "kind": "build", "isDefault": true },
+      "presentation": { "reveal": "always", "panel": "shared" },
+      "problemMatcher": []
+    }
+  ]
+}
