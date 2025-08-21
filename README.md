@@ -63,7 +63,7 @@ python transcribe.py input.mp3 small ru
 ## Example
 
 <div align="center">
-    <img src="preshow/preshow.png" alt="transcriber-showcase">
+    <img src="images/preshow.png" alt="transcriber-showcase">
 </div>
 
 ---
